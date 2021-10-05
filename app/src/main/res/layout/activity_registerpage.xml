@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF4C7D"
+    android:backgroundTint="#EF4C7D"
+    tools:context=".REGISTERPAGE">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
+        android:text="Register here"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+'
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/parlogo" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:background="@color/black"
+        app:cardBackgroundColor="@color/black">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:hint="Your name"
+            android:shadowColor="@color/teal_700"
+            android:textColorHint="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rounded_corner"
+        app:cardBackgroundColor="@color/black">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:hint="Your Email"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            android:inputType="textWebEmailAddress"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="520dp"
+        app:cardBackgroundColor="@color/black">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:hint="Password "
+            android:textColorHint="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            android:inputType="textWebPassword"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="590dp"
+        app:cardBackgroundColor="@color/black" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:hint="Confirm Password "
+            android:textColorHint="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold|italic"
+            android:inputType="textWebPassword" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/black"
+        android:text="Sign Up" />
+
+
+</RelativeLayout>
